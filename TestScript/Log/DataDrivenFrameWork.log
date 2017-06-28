@@ -1,0 +1,97 @@
+2017-06-17 17:00:40 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:00:43 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:00:45 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:01:31 Log.py[line:27] ERROR Traceback (most recent call last):
+  File "E:/PythonProject/data_driven_framework/TestScript/TestContact.py", line 28, in <module>
+    login(driver, username, password)
+  File "E:\PythonProject\data_driven_framework\Action\login.py", line 18, in login
+    login_page.continuelogin_btn().click()
+  File "E:\PythonProject\data_driven_framework\PageObject\login_page.py", line 30, in continuelogin_btn
+    return self.returnElement('loginpage.continuelogin')
+  File "E:\PythonProject\data_driven_framework\PageObject\login_page.py", line 35, in returnElement
+    return getElement(self.driver, locateType, locateExpression)
+  File "E:\PythonProject\data_driven_framework\Util\ObjectMap.py", line 12, in getElement
+    raise e
+TimeoutException: Message: 
+
+
+2017-06-17 17:31:34 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:31:37 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:31:40 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:32:23 Log.py[line:27] ERROR Traceback (most recent call last):
+  File "E:/PythonProject/data_driven_framework/TestScript/TestContact.py", line 28, in <module>
+    login(driver, username, password)
+  File "E:\PythonProject\data_driven_framework\Action\login.py", line 18, in login
+    login_page.continuelogin_btn().click()
+  File "E:\PythonProject\data_driven_framework\PageObject\login_page.py", line 30, in continuelogin_btn
+    return self.returnElement('loginpage.continuelogin')
+  File "E:\PythonProject\data_driven_framework\PageObject\login_page.py", line 35, in returnElement
+    return getElement(self.driver, locateType, locateExpression)
+  File "E:\PythonProject\data_driven_framework\Util\ObjectMap.py", line 12, in getElement
+    raise e
+TimeoutException: Message: 
+
+
+2017-06-17 17:48:43 Log.py[line:27] ERROR Traceback (most recent call last):
+  File "E:/PythonProject/data_driven_framework/TestScript/TestContact.py", line 43, in <module>
+    assert assert_key in driver.page_source
+AssertionError
+
+2017-06-17 17:48:43 Log.py[line:27] ERROR Traceback (most recent call last):
+  File "E:/PythonProject/data_driven_framework/TestScript/TestContact.py", line 53, in <module>
+    assert True==False
+AssertionError
+
+2017-06-17 17:49:27 Log.py[line:27] ERROR Traceback (most recent call last):
+  File "E:/PythonProject/data_driven_framework/TestScript/TestContact.py", line 28, in <module>
+    login(driver, username, password)
+  File "E:\PythonProject\data_driven_framework\Action\login.py", line 18, in login
+    login_page.continuelogin_btn().click()
+  File "E:\PythonProject\data_driven_framework\PageObject\login_page.py", line 30, in continuelogin_btn
+    return self.returnElement('loginpage.continuelogin')
+  File "E:\PythonProject\data_driven_framework\PageObject\login_page.py", line 35, in returnElement
+    return getElement(self.driver, locateType, locateExpression)
+  File "E:\PythonProject\data_driven_framework\Util\ObjectMap.py", line 12, in getElement
+    raise e
+TimeoutException: Message: 
+
+
+2017-06-17 17:51:02 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:51:41 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:51:44 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:51:47 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:52:32 Log.py[line:27] ERROR Traceback (most recent call last):
+  File "E:/PythonProject/data_driven_framework/TestScript/TestContact.py", line 28, in <module>
+    login(driver, username, password)
+  File "E:\PythonProject\data_driven_framework\Action\login.py", line 18, in login
+    login_page.continuelogin_btn().click()
+  File "E:\PythonProject\data_driven_framework\PageObject\login_page.py", line 30, in continuelogin_btn
+    return self.returnElement('loginpage.continuelogin')
+  File "E:\PythonProject\data_driven_framework\PageObject\login_page.py", line 35, in returnElement
+    return getElement(self.driver, locateType, locateExpression)
+  File "E:\PythonProject\data_driven_framework\Util\ObjectMap.py", line 12, in getElement
+    raise e
+TimeoutException: Message: 
+
+
+2017-06-17 17:55:03 Log.py[line:27] ERROR Traceback (most recent call last):
+  File "E:/PythonProject/data_driven_framework/TestScript/TestContact.py", line 43, in <module>
+    assert assert_key in driver.page_source
+AssertionError
+
+2017-06-17 17:55:05 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:55:08 Log.py[line:19] INFO 新建联系人成功
+2017-06-17 17:55:53 Log.py[line:27] ERROR Traceback (most recent call last):
+  File "E:/PythonProject/data_driven_framework/TestScript/TestContact.py", line 28, in <module>
+    login(driver, username, password)
+  File "E:\PythonProject\data_driven_framework\Action\login.py", line 18, in login
+    login_page.continuelogin_btn().click()
+  File "E:\PythonProject\data_driven_framework\PageObject\login_page.py", line 30, in continuelogin_btn
+    return self.returnElement('loginpage.continuelogin')
+  File "E:\PythonProject\data_driven_framework\PageObject\login_page.py", line 35, in returnElement
+    return getElement(self.driver, locateType, locateExpression)
+  File "E:\PythonProject\data_driven_framework\Util\ObjectMap.py", line 12, in getElement
+    raise e
+TimeoutException: Message: 
+
+
